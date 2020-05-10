@@ -62,7 +62,7 @@ C) send files or execute commands over SSH
 D) send files or execute commands over SSH  
   Name: `docker_host`  
   Exec command	: `docker run -d --name valaxy_demo -p 8090:8080 valaxy_demo`  
-
+Note: If build is unstable and getting Permission denied error, issue 'chown -R owner:group DirectoryName/'
 7. Login to Docker host and check images and containers. (no images and containers)
 
 8. Execute Jenkins job
